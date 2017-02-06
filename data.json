@@ -148,7 +148,7 @@
     "Closed-Loop Systems": [
       {
         "name": "Loop",
-        "image": "https://github.com/LoopKit/Loop/blob/master/Documentation/Screenshots/Phone%20Graphs.png",
+        "image": "https://raw.githubusercontent.com/LoopKit/Loop/master/Documentation/Screenshots/Phone%20Graphs.png",
         "website": null,
         "github": "https://github.com/loopkit/loop",
         "configurations": [
