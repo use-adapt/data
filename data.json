@@ -3,9 +3,8 @@
     "Cloud Services": [
       {
         "name": "Nightscout",
-        "github": "https://github.com/nightscout/cgm-remote-monitor",
         "website": "http://www.nightscout.info/",
-        "category": "cloud services",
+        "github": "https://github.com/nightscout/cgm-remote-monitor",
         "configurations": [
           ["Dexcom G5", "iOS"],
           ["Dexcom G4 with Share", "iOS"],
@@ -21,7 +20,6 @@
         "name": "Tidepool Uploader",
         "website": "http://tidepool.org/products/tidepool-uploader/",
         "github": "https://github.com/tidepool-org/chrome-uploader",
-        "category": "cloud services",
         "configurations": [
           ["Dexcom G4", "macOS", "Micro-USB Cable"],
           ["Dexcom G4", "Windows", "Micro-USB Cable"],
@@ -63,7 +61,6 @@
         "name": "CGM in the Sky",
         "github": null,
         "pebble_store": "https://apps.getpebble.com/en_US/application/56539401713e32fa020000a6?section=watchfaces",
-        "category": "watchfaces",
         "configurations": [
           ["Nightscout", "Pebble"]
         ]
@@ -72,7 +69,6 @@
         "name": "Simple CGM Spark",
         "github": null,
         "pebble_store": "https://apps.getpebble.com/en_US/application/56534d58d2d67de36d00005f?query=simple%2520cgm%2520spark&section=watchfaces",
-        "category": "watchfaces",
         "configurations": [
           ["Nightscout", "Pebble"]
         ]
@@ -81,7 +77,6 @@
         "name": "Simple CGM",
         "github": null,
         "pebble_store": "https://apps.getpebble.com/en_US/application/557c3091d269ce13b300001a?query=simple%2520cgm&section=watchfaces",
-        "category": "watchfaces",
         "configurations": [
           ["Nightscout", "Pebble"]
         ]
@@ -90,7 +85,6 @@
         "name": "Nightscout Duo",
         "github": null,
         "pebble_store": "https://apps.getpebble.com/en_US/application/5717e72e02a44b1cf900000e?query=duo&section=watchfaces",
-        "category": "watchfaces",
         "configurations": [
           ["Nightscout", "Pebble"]
         ]
@@ -99,7 +93,6 @@
         "name": "Urchin",
         "github": "https://github.com/mddub/urchin-cgm",
         "pebble_store": null,
-        "category": "watchfaces",
         "configurations": [
           ["Nightscout", "Pebble"]
         ]
@@ -108,7 +101,6 @@
         "name": "Simple CGM Time",
         "github": null,
         "pebble_store": "https://apps.getpebble.com/en_US/application/5788797769ee715dd7000262",
-        "category": "watchface",
         "configurations": [
           ["Nightscout", "Pebble"]
         ]
@@ -117,7 +109,6 @@
         "name": "Simple CGM Analog",
         "pebble_store": "https://apps.getpebble.com/en_US/application/578c21b584accc314e0002bf",
         "github": null,
-        "category": "watchface",
         "configurations": [
           ["Nightscout", "Pebble"]
         ]
@@ -126,7 +117,6 @@
         "name": "Nightscout for Pebble",
         "pebble_store":"https://apps.getpebble.com/en_US/application/543bfbbcecc29baad0000007?section=watchfaces",
         "github": null,
-        "category": "watchfaces",
         "configurations": [
           ["Nightscout", "Pebble Classic"],
           ["Nightscout", "Pebble steel"],
@@ -138,7 +128,6 @@
         "name": "CGM in the Cloud",
         "pebble_store":"https://apps.getpebble.com/en_US/application/543bfff4ecc29b79790001de?query=CGM%2520in%2520the%2520Cloud&section=watchfaces",
         "github": null,
-        "category": "watchfaces",
         "configurations": [
           ["Nightscout", "Pebble Classic"],
           ["Nightscout", "Pebble steel"],
@@ -150,8 +139,8 @@
     "Closed-Loop Systems": [
       {
         "name": "Loop",
-        "github": "https://github.com/loopkit/loop",
         "website": null,
+        "github": "https://github.com/loopkit/loop",
         "configurations": [
           ["Dexcom G4", "Medtronic 515/715", "iOS", "macOS", "RileyLink"],
           ["Dexcom G4", "Medtronic 522/722", "iOS", "macOS", "RileyLink"],
@@ -170,8 +159,8 @@
       },
       {
         "name": "OpenAPS",
-        "github": "https://github.com/openaps/docs",
         "website": "http://openaps.readthedocs.io/",
+        "github": "https://github.com/openaps/docs",
         "configurations": [
           ["Dexcom G4", "Raspberry Pi 2 Model B", "WiFi Adapter", "CareLink USB stick", "Micro SD Card", "Micro-USB Cable", "2.1 Amp Power Supply/Battery"],
           ["Dexcom G4", "Raspberry Pi 2 Model B", "WiFi Adapter", "TI stick", "Micro SD Card", "Micro-USB Cable", "2.1 Amp Power Supply/Battery"],
@@ -215,9 +204,8 @@
     "Experimental": [
       {
         "name": "OpenOmni",
-        "github": "https://github.com/openaps/openomni",
         "website": "https://omniaps.slack.com/",
-        "category": "experimental",
+        "github": "https://github.com/openaps/openomni",
         "configurations": [
           ["RFCat", "Omnipod"],
           ["TI USB Stick", "cc-debugger", "Omnipod"]
@@ -237,5 +225,5 @@
     "Tools/Add-Ons": ["Explorer Board", "Intel Base Board", "Carelink USB Stick", "TI USB Stick", "cc-debugger", "WiFi Adapter", "Micro SD Card", "2.1 Amp Power Supply/Battery", "Lipo Battery", "Sparkfun Base Board", "RFCat"],
     "Bridges": ["xDrip", "RileyLink"],
     "Cables": ["Micro-USB Cable", "Mini-USB Cable", "USB power supply"]
-  } 
-} 
+  }
+}
