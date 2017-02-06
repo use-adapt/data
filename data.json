@@ -206,7 +206,7 @@
         "configurations": [
           ["Nightscout", "macOS"]
         ]
-      },
+      }
     ],
     "Experimental": [
       {
