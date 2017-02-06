@@ -197,9 +197,16 @@
         ]
       }
     ],
-    "Watch Apps": [
-    ],
-    "Phone Apps": [
+    "Tools": [
+      {
+        "name": "Nightscout Menubar",
+        "image": "https://raw.githubusercontent.com/mddub/nightscout-osx-menubar/master/screenshot.png",
+        "website": null,
+        "github": "https://github.com/mddub/nightscout-osx-menubar",
+        "configurations": [
+          ["Nightscout", "macOS"]
+        ]
+      },
     ],
     "Experimental": [
       {
@@ -210,13 +217,22 @@
           ["RFCat", "Omnipod"],
           ["TI USB Stick", "cc-debugger", "Omnipod"]
         ]
+      },
+      {
+        "name": "OpenAPS Autotune",
+        "website": "http://openaps.readthedocs.io/en/latest/docs/walkthrough/phase-4/autotune.html",
+        "github": "https://github.com/openaps/oref0/tree/dev/bin",
+        "configurations": [
+          ["Nightscout", "OpenAPS"],
+          ["Nightscout", "Loop"]
+        ]
       }
     ]
   },
   "requirements": {
     "Meters": ["Verio IQ", "Contour Next", "Contour USB", "Precision Xtra", "Freedom Lite"],
     "Cloud Services": ["Nightscout", "Tidepool Blip", "Carelink", "Medtronic Minimed Connect"],
-    "Computer": ["macOS", "linux", "Windows"],
+    "Computer": ["macOS", "Linux", "Windows"],
     "Phone": ["Android", "iOS"],
     "CGM": ["Dexcom G4", "Dexcom G4 with Share", "Dexcom G5", "Medtronic Enlite", "Medtronic Revel", "Freestyle Libre"],
     "Pump": ["Medtronic 512/712", "Medtronic 515/715", "Medtronic 522/722", "Medtronic 723/523", "Omnipod", "t:slim", "Animas Ping", "Animas Vibe", "Medtronic 640g", "Medtronic 523/723 w/ <2.4 Firmware", "Medtronic 554/754 w/ <2.4 Firmware"],
