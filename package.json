@@ -1,0 +1,11 @@
+{
+  "name": "adapt-data",
+  "version": "0.0.0",
+  "description": "Information about diabetes open-source projects used by the adapt project.",
+  "repository": "git@github.com:use-adapt/data.git",
+  "author": "Jessie Pusateri",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
