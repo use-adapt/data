@@ -59,4 +59,29 @@ describe('project', function () {
       })
     });
   });
+  describe('image URLs', function () {
+    context('when not null', function () {
+      projects.forEach((project) => {
+        it('should respond with 200 OK', function (done) {
+          if (project.image === null) {
+            done();
+          }
+          else if (project.image.startsWith('https')) {
+            https.get(project.image, (res) => {
+              res.resume();
+              if (res.statusCode === 200) {
+                done();
+              } else {
+                const err = new Error(`Request failed with status code ${res.statusCode}`);
+                done(err);
+              }
+            });
+          }
+          else {
+            http.get(project.image, done);
+          }
+        });
+      })
+    });
+  });
 });
