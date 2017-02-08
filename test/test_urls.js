@@ -42,16 +42,16 @@ describe('project', function () {
   });
 
   describe('website URLs', function () {
-    projects.filter((project) => project.website !== null)
-      .forEach((project) => {
-        context(`${project.name}`, function () {
-          it('should not be undefined'), function () {
-            project.name.should.not.be.undefined();
-          }
-        });
-      });
-
     context('when not null', function () {
+      projects.filter((project) => project.website !== null)
+        .forEach((project) => {
+          context(`${project.name}`, function () {
+            it('should not be undefined', function () {
+              project.website.should.not.be.undefined();
+            });
+          });
+        });
+
       projects.filter((project) => project.website !== null)
         .forEach((project) => {
           context(`${project.name} (${project.website})`, function () {
@@ -65,27 +65,23 @@ describe('project', function () {
 
   describe('image URLs', function () {
     context('when not null', function () {
-      projects.forEach((project) => {
-        it('should respond with 200 OK', function (done) {
-          if (project.image === null) {
-            done();
-          }
-          else if (project.image.startsWith('https')) {
-            https.get(project.image, (res) => {
-              res.resume();
-              if (res.statusCode === 200) {
-                done();
-              } else {
-                const err = new Error(`Request failed with status code ${res.statusCode}`);
-                done(err);
-              }
+      projects.filter((project) => project.image !== null)
+        .forEach((project) => {
+          context(`${project.name}`, function () {
+            it('should not be undefined', function() {
+              project.image.should.not.be.undefined();
             });
-          }
-          else {
-            http.get(project.image, done);
-          }
+          });
         });
-      })
+
+      projects.filter((project) => project.image !== null)
+        .forEach((project) => {
+          context(`${project.name} (${project.image})`, function () {
+            it('should respond with 200 OK', function (done) {
+              httpx_get(project.image, done);
+            });
+          });
+        });
     });
   });
 });
