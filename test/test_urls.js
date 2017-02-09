@@ -32,7 +32,10 @@ describe('project', function () {
     context('when not null', function () {
       projects.filter((project) => project.github !== null)
         .forEach((project) => {
-          context(project.github, function () {
+          context(`${project.name} (${project.website})`, function () {
+            it('should not be undefined', function () {
+              should.notStrictEqual(project.github, undefined);
+            });
             it('should respond with 200 OK', function (done) {
               httpx_get(project.github, done);
             });
@@ -45,16 +48,10 @@ describe('project', function () {
     context('when not null', function () {
       projects.filter((project) => project.website !== null)
         .forEach((project) => {
-          context(`${project.name}`, function () {
-            it('should not be undefined', function () {
-              project.website.should.not.be.undefined();
-            });
-          });
-        });
-
-      projects.filter((project) => project.website !== null)
-        .forEach((project) => {
           context(`${project.name} (${project.website})`, function () {
+            it('should not be undefined', function () {
+              should.notStrictEqual(project.website, undefined);
+            });
             it('should respond with 200 OK', function (done) {
               httpx_get(project.website, done);
             });
@@ -67,16 +64,10 @@ describe('project', function () {
     context('when not null', function () {
       projects.filter((project) => project.image !== null)
         .forEach((project) => {
-          context(`${project.name}`, function () {
-            it('should not be undefined', function() {
-              project.image.should.not.be.undefined();
-            });
-          });
-        });
-
-      projects.filter((project) => project.image !== null)
-        .forEach((project) => {
           context(`${project.name} (${project.image})`, function () {
+            it('should not be undefined', function() {
+              should.notStrictEqual(project.image, undefined);
+            });
             it('should respond with 200 OK', function (done) {
               httpx_get(project.image, done);
             });
