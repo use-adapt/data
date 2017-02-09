@@ -9,7 +9,7 @@ import * as data from '../data.json';
 function httpx_get(url, done) {
   function callback(res) {
     res.resume();
-    if (res.statusCode === 200) {
+    if (res.statusCode < 400) {
       done();
     } else {
       const err = new Error(`Request for ${url} failed with status code ${res.statusCode}`);
