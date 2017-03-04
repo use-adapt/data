@@ -9,6 +9,7 @@
     "Carelink",
     "Carelink USB Stick",
     "Contour Next",
+    "Contour Next Link"
     "Contour USB",
     "Dexcom G4",
     "Dexcom G4 with Share",
@@ -35,9 +36,12 @@
     "Mini-USB Cable",
     "Nightscout",
     "Omnipod",
+    "OpenAPS",
     "Pebble",
     "Pebble Classic",
+    "Pebble Steel",
     "Pebble Time",
+    "Pebble Time Steel",
     "Precision Xtra",
     "RFCat",
     "Raspberry Pi 2 Model B",
@@ -55,6 +59,8 @@
     "iOS Phone",
     "macOS",
     "t:slim",
+    "t:slim G4"
+    "t:slim X2"
     "xDrip"
   ]
 }

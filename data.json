@@ -11,84 +11,84 @@
           [
             "Dexcom G4",
             "Medtronic 515/715",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G4",
             "Medtronic 522/722",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G4",
             "Medtronic 523/723 w/ <2.4 Firmware",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G4",
             "Medtronic 554/754 w/ <2.4 Firmware",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G4 with Share",
             "Medtronic 515/715",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G4 with Share",
             "Medtronic 522/722",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G4 with Share",
             "Medtronic 523/723 w/ <2.4 Firmware",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G4 with Share",
             "Medtronic 554/754 w/ <2.4 Firmware",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G5",
             "Medtronic 515/715",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G5",
             "Medtronic 522/722",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G5",
             "Medtronic 523/723 w/ <2.4 Firmware",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G5",
             "Medtronic 554/754 w/ <2.4 Firmware",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ]
@@ -105,7 +105,7 @@
             "Dexcom G4",
             "Raspberry Pi 2 Model B",
             "WiFi Adapter",
-            "CareLink USB stick",
+            "Carelink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -122,7 +122,7 @@
           [
             "Dexcom G4",
             "Raspberry Pi 3 Model B",
-            "CareLink USB stick",
+            "Carelink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -139,7 +139,7 @@
             "Dexcom G5",
             "Raspberry Pi 2 Model B",
             "WiFi Adapter",
-            "CareLink USB stick",
+            "Carelink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -156,7 +156,7 @@
           [
             "Dexcom G5",
             "Raspberry Pi 3 Model B",
-            "CareLink USB stick",
+            "Carelink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -173,7 +173,7 @@
             "Dexcom G4 with Share",
             "Raspberry Pi 2 Model B",
             "WiFi Adapter",
-            "CareLink USB stick",
+            "Carelink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -190,7 +190,7 @@
           [
             "Dexcom G4 with Share",
             "Raspberry Pi 3 Model B",
-            "CareLink USB stick",
+            "Carelink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -318,11 +318,11 @@
         "configurations": [
           [
             "Dexcom G5",
-            "iOS"
+            "iOS Phone"
           ],
           [
             "Dexcom G4 with Share",
-            "iOS"
+            "iOS Phone"
           ],
           [
             "Dexcom G4 with Share",
@@ -333,12 +333,12 @@
             "Android"
           ],
           [
-            "Medtronic 530g",
+            "Medtronic 530G",
             "Android"
           ],
           [
             "Medtronic Minimed Connect",
-            "iOS"
+            "iOS Phone"
           ],
           [
             "Medtronic 640g",
@@ -450,13 +450,13 @@
             "Carelink USB Stick"
           ],
           [
-            "Medtronic 530g",
+            "Medtronic 530G",
             "macOS",
             "Carelink",
             "Carelink USB Stick"
           ],
           [
-            "Medtronic 530g",
+            "Medtronic 530G",
             "Windows",
             "Carelink",
             "Carelink USB Stick"
@@ -470,11 +470,11 @@
             "Windows"
           ],
           [
-            "Contour Next link",
+            "Contour Next Link",
             "macOS"
           ],
           [
-            "Contour Next link",
+            "Contour Next Link",
             "Windows"
           ],
           [
@@ -677,7 +677,7 @@
           ],
           [
             "Nightscout",
-            "Pebble steel"
+            "Pebble Steel"
           ],
           [
             "Nightscout",
@@ -685,7 +685,7 @@
           ],
           [
             "Nightscout",
-            "Pebble Time steel"
+            "Pebble Time Steel"
           ]
         ]
       },
@@ -703,7 +703,7 @@
           ],
           [
             "Nightscout",
-            "Pebble steel"
+            "Pebble Steel"
           ],
           [
             "Nightscout",
@@ -711,7 +711,7 @@
           ],
           [
             "Nightscout",
-            "Pebble Time steel"
+            "Pebble Time Steel"
           ]
         ]
       }
@@ -748,6 +748,7 @@
     ],
     "Meters": [
       "Contour Next",
+      "Contour Next Link",
       "Contour USB",
       "Freedom Lite",
       "Precision Xtra",
@@ -755,7 +756,7 @@
     ],
     "Phone": [
       "Android",
-      "iOS"
+      "iOS Phone"
     ],
     "Portable Computers": [
       "Intel Edison",
@@ -770,17 +771,19 @@
       "Medtronic 522/722",
       "Medtronic 523/723 w/ <2.4 Firmware",
       "Medtronic 554/754 w/ <2.4 Firmware",
-      "Medtronic 640g",
+      "Medtronic 530G",
       "Medtronic 723/523",
       "Omnipod",
-      "t:slim"
+      "t:slim",
+      "t:slim X2"
     ],
     "Smartwatches": [
-      "Android Wear (any)",
+      "Android Wear Watch",
       "Apple Watch",
       "Pebble",
       "Pebble Classic",
       "Pebble Time",
+      "Pebble Time Steel",
       "Samsung Gear"
     ],
     "Tools/Add-Ons": [
