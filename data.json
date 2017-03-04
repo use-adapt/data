@@ -560,7 +560,7 @@
         "image": "https://assets.getpebble.com/api/file/DrB3W3GQSNqngelLykLc/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
         "github": null,
-        "pebble_store": "https://apps.getpebble.com/en_US/application/56539401713e32fa020000a6?section=watchfaces",
+        "store": "https://apps.getpebble.com/en_US/application/56539401713e32fa020000a6?section=watchfaces",
         "configurations": [
           [
             "Nightscout",
@@ -573,7 +573,7 @@
         "image": "https://assets.getpebble.com/api/file/J3UfWwwgT5yCkaRY1pQn/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
         "github": null,
-        "pebble_store": "https://apps.getpebble.com/en_US/application/56534d58d2d67de36d00005f?query=simple%2520cgm%2520spark&section=watchfaces",
+        "store": "https://apps.getpebble.com/en_US/application/56534d58d2d67de36d00005f?query=simple%2520cgm%2520spark&section=watchfaces",
         "configurations": [
           [
             "Nightscout",
@@ -586,7 +586,7 @@
         "image": "https://assets.getpebble.com/api/file/Yxs59mzATrXaWRd5tObu/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
         "github": null,
-        "pebble_store": "https://apps.getpebble.com/en_US/application/557c3091d269ce13b300001a?query=simple%2520cgm&section=watchfaces",
+        "store": "https://apps.getpebble.com/en_US/application/557c3091d269ce13b300001a?query=simple%2520cgm&section=watchfaces",
         "configurations": [
           [
             "Nightscout",
@@ -599,7 +599,7 @@
         "image": "https://assets.getpebble.com/api/file/uXnfHeSVKUsadBXvM4sg/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
         "github": null,
-        "pebble_store": "https://apps.getpebble.com/en_US/application/5717e72e02a44b1cf900000e?query=duo&section=watchfaces",
+        "store": "https://apps.getpebble.com/en_US/application/5717e72e02a44b1cf900000e?query=duo&section=watchfaces",
         "configurations": [
           [
             "Nightscout",
@@ -612,7 +612,7 @@
         "image": "https://camo.githubusercontent.com/206a907ce1df1435de5abd90c9414e3119021464/687474703a2f2f692e696d6775722e636f6d2f633831597234522e706e67",
         "image_source": "https://github.com/mddub/urchin-cgm",
         "github": "https://github.com/mddub/urchin-cgm",
-        "pebble_store": null,
+        "store": null,
         "configurations": [
           [
             "Nightscout",
@@ -625,7 +625,7 @@
         "image": "https://assets.getpebble.com/api/file/WTlnfSHoRkiC26hyNYPn/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
         "github": null,
-        "pebble_store": "https://apps.getpebble.com/en_US/application/5788797769ee715dd7000262",
+        "store": "https://apps.getpebble.com/en_US/application/5788797769ee715dd7000262",
         "configurations": [
           [
             "Nightscout",
@@ -638,7 +638,7 @@
         "image": "https://assets.getpebble.com/api/file/n8ZU31kpTDmK0P9jXvzL/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
         "github": null,
-        "pebble_store": "https://apps.getpebble.com/en_US/application/578c21b584accc314e0002bf",
+        "store": "https://apps.getpebble.com/en_US/application/578c21b584accc314e0002bf",
         "configurations": [
           [
             "Nightscout",
@@ -651,7 +651,7 @@
         "image": "https://assets.getpebble.com/api/file/WtNdjKpqQyqfnNIhyWLo/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
         "github": null,
-        "pebble_store": "https://apps.getpebble.com/en_US/application/543bfbbcecc29baad0000007?section=watchfaces",
+        "store": "https://apps.getpebble.com/en_US/application/543bfbbcecc29baad0000007?section=watchfaces",
         "configurations": [
           [
             "Nightscout",
@@ -676,7 +676,7 @@
         "image": "https://assets.getpebble.com/api/file/Xkzv50BQHyVQ5ao2bapA/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
         "github": null,
-        "pebble_store": "https://apps.getpebble.com/en_US/application/543bfff4ecc29b79790001de?query=CGM%2520in%2520the%2520Cloud&section=watchfaces",
+        "store": "https://apps.getpebble.com/en_US/application/543bfff4ecc29b79790001de?query=CGM%2520in%2520the%2520Cloud&section=watchfaces",
         "configurations": [
           [
             "Nightscout",
