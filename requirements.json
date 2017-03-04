@@ -6,10 +6,11 @@
     "Animas Ping",
     "Animas Vibe",
     "Apple Watch",
-    "Carelink",
-    "Carelink USB Stick",
+    "CareLink",
+    "CareLink USB Stick",
     "Contour Next",
-    "Contour Next Link"
+    "Contour Next Link",
+    "Contour Next USB",
     "Contour USB",
     "Dexcom G4",
     "Dexcom G4 with Share",
@@ -21,12 +22,14 @@
     "Intel Edison",
     "Linux",
     "Lipo Battery",
+    "Loop",
     "Medtronic 512/712",
     "Medtronic 515/715",
     "Medtronic 522/722",
     "Medtronic 523/723 w/ <2.4 Firmware",
     "Medtronic 554/754 w/ <2.4 Firmware",
-    "Medtronic 640g",
+    "Medtronic 530G",
+    "Medtronic 640G",
     "Medtronic 723/523",
     "Medtronic Enlite",
     "Medtronic Minimed Connect",
@@ -58,9 +61,10 @@
     "cc-debugger",
     "iOS Phone",
     "macOS",
+    "t:flex",
     "t:slim",
-    "t:slim G4"
-    "t:slim X2"
+    "t:slim G4",
+    "t:slim X2",
     "xDrip"
   ]
 }

@@ -105,7 +105,7 @@
             "Dexcom G4",
             "Raspberry Pi 2 Model B",
             "WiFi Adapter",
-            "Carelink USB Stick",
+            "CareLink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -114,7 +114,7 @@
             "Dexcom G4",
             "Raspberry Pi 2 Model B",
             "WiFi Adapter",
-            "TI stick",
+            "TI USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -122,7 +122,7 @@
           [
             "Dexcom G4",
             "Raspberry Pi 3 Model B",
-            "Carelink USB Stick",
+            "CareLink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -130,7 +130,7 @@
           [
             "Dexcom G4",
             "Raspberry Pi 3 Model B",
-            "TI stick",
+            "TI USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -139,7 +139,7 @@
             "Dexcom G5",
             "Raspberry Pi 2 Model B",
             "WiFi Adapter",
-            "Carelink USB Stick",
+            "CareLink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -148,7 +148,7 @@
             "Dexcom G5",
             "Raspberry Pi 2 Model B",
             "WiFi Adapter",
-            "TI stick",
+            "TI USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -156,7 +156,7 @@
           [
             "Dexcom G5",
             "Raspberry Pi 3 Model B",
-            "Carelink USB Stick",
+            "CareLink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -164,7 +164,7 @@
           [
             "Dexcom G5",
             "Raspberry Pi 3 Model B",
-            "TI stick",
+            "TI USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -173,7 +173,7 @@
             "Dexcom G4 with Share",
             "Raspberry Pi 2 Model B",
             "WiFi Adapter",
-            "Carelink USB Stick",
+            "CareLink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -182,7 +182,7 @@
             "Dexcom G4 with Share",
             "Raspberry Pi 2 Model B",
             "WiFi Adapter",
-            "TI stick",
+            "TI USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -190,7 +190,7 @@
           [
             "Dexcom G4 with Share",
             "Raspberry Pi 3 Model B",
-            "Carelink USB Stick",
+            "CareLink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -198,7 +198,7 @@
           [
             "Dexcom G4 with Share",
             "Raspberry Pi 3 Model B",
-            "TI stick",
+            "TI USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -326,27 +326,27 @@
           ],
           [
             "Dexcom G4 with Share",
-            "Android"
+            "Android Phone"
           ],
           [
             "Dexcom G4",
-            "Android"
+            "Android Phone"
           ],
           [
             "Medtronic 530G",
-            "Android"
+            "Android Phone"
           ],
           [
             "Medtronic Minimed Connect",
             "iOS Phone"
           ],
           [
-            "Medtronic 640g",
-            "Android"
+            "Medtronic 640G",
+            "Android Phone"
           ],
           [
             "Freestyle Libre",
-            "Android"
+            "Android Phone"
           ]
         ]
       },
@@ -440,26 +440,26 @@
           [
             "Medtronic 723/523",
             "macOS",
-            "Carelink",
-            "Carelink USB Stick"
+            "CareLink",
+            "CareLink USB Stick"
           ],
           [
             "Medtronic 723/523",
             "Windows",
-            "Carelink",
-            "Carelink USB Stick"
+            "CareLink",
+            "CareLink USB Stick"
           ],
           [
             "Medtronic 530G",
             "macOS",
-            "Carelink",
-            "Carelink USB Stick"
+            "CareLink",
+            "CareLink USB Stick"
           ],
           [
             "Medtronic 530G",
             "Windows",
-            "Carelink",
-            "Carelink USB Stick"
+            "CareLink",
+            "CareLink USB Stick"
           ],
           [
             "Contour Next",
@@ -736,10 +736,14 @@
       "USB power supply"
     ],
     "Cloud Services": [
-      "Carelink",
+      "CareLink",
       "Medtronic Minimed Connect",
       "Nightscout",
       "Tidepool Blip"
+    ],
+    "Closed-Loop Systems": [
+      "Loop",
+      "OpenAPS"
     ],
     "Computer": [
       "Linux",
@@ -749,13 +753,14 @@
     "Meters": [
       "Contour Next",
       "Contour Next Link",
+      "Contour Next USB",
       "Contour USB",
       "Freedom Lite",
       "Precision Xtra",
       "Verio IQ"
     ],
     "Phone": [
-      "Android",
+      "Android Phone",
       "iOS Phone"
     ],
     "Portable Computers": [
@@ -772,9 +777,12 @@
       "Medtronic 523/723 w/ <2.4 Firmware",
       "Medtronic 554/754 w/ <2.4 Firmware",
       "Medtronic 530G",
+      "Medtronic 640G",
       "Medtronic 723/523",
       "Omnipod",
+      "t:flex",
       "t:slim",
+      "t:slim G4",
       "t:slim X2"
     ],
     "Smartwatches": [
@@ -788,7 +796,7 @@
     ],
     "Tools/Add-Ons": [
       "2.1 Amp Power Supply/Battery",
-      "Carelink USB Stick",
+      "CareLink USB Stick",
       "Explorer Board",
       "Intel Base Board",
       "Lipo Battery",

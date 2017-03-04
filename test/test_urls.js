@@ -36,7 +36,7 @@ describe('project', function () {
       projects.filter((project) => project.github !== null)
         .forEach((project) => {
           context(`${project.name} (${project.website})`, function () {
-            it('should not be undefined (Accepts: \'github\': null or \'github\': \'VALID URL\')', function () {
+            it('should be a valid URL or null', function () {
               should.notStrictEqual(project.github, undefined);
             });
             it('should respond with 200 OK', function (done) {
@@ -52,7 +52,7 @@ describe('project', function () {
       projects.filter((project) => project.website !== null)
         .forEach((project) => {
           context(`${project.name} (${project.website})`, function () {
-            it('should not be undefined (Accepts: \'website\': null or \'website\': \'VALID URL\')', function () {
+            it('should be a valid URL or null', function () {
               should.notStrictEqual(project.website, undefined);
             });
             it('should respond with 200 OK', function (done) {
@@ -68,7 +68,7 @@ describe('project', function () {
       projects.filter((project) => project.image !== null)
         .forEach((project) => {
           context(`${project.name} (${project.image})`, function () {
-            it('should not be undefined (Accepts: \'image\': null or \'image\': \'VALID URL\')', function() {
+            it('should be a valid URL or null', function () {
               should.notStrictEqual(project.image, undefined);
             });
             it('should respond with 200 OK', function (done) {
@@ -78,27 +78,24 @@ describe('project', function () {
         });
     });
   });
+
   describe('configurations', function () {
     context('when not null', function () {
-      projects.filter((project) => project.configurations !== null)
-        .forEach((project) => {
+      projects.forEach((project) => {
           context(`${project.name}`, function () {
-            context('should only use allowed requirements', function() {
               project.configurations.forEach((configuration) => {
-                context(`${configuration}`, function () {
+                context(`${configuration.join(', ')}`, function () {
                   configuration.forEach((component) => {
                     context(`${component}`, function () {
-                      it('should only use allowable requirements', function () {
-                        //return true;
+                      it('is an allowable component', function () {
                         component.should.be.oneOf(requirements);
                       });
                     });
                   });
                 });
+              });
             });
           });
         });
       });
     });
-  });
-});
