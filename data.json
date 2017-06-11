@@ -95,8 +95,6 @@
       },
       {
         "name": "OpenAPS",
-        "image": null,
-        "image_source": null,
         "website": "http://openaps.readthedocs.io/",
         "github": "https://github.com/openaps/docs",
         "configurations": [
@@ -310,8 +308,6 @@
     "Cloud Services": [
       {
         "name": "Nightscout",
-        "image": null,
-        "image_source": null,
         "website": "http://www.nightscout.info/",
         "github": "https://github.com/nightscout/cgm-remote-monitor",
         "configurations": [
@@ -351,8 +347,6 @@
       },
       {
         "name": "Tidepool Uploader",
-        "image": null,
-        "image_source": null,
         "website": "http://tidepool.org/products/tidepool-uploader/",
         "github": "https://github.com/tidepool-org/chrome-uploader",
         "configurations": [
@@ -514,8 +508,6 @@
     "Experimental": [
       {
         "name": "OpenOmni",
-        "image": null,
-        "image_source": null,
         "website": "https://omniaps.slack.com/",
         "github": "https://github.com/openaps/openomni",
         "configurations": [
@@ -532,8 +524,6 @@
       },
       {
         "name": "OpenAPS Autotune",
-        "image": null,
-        "image_source": null,
         "website": "http://openaps.readthedocs.io/en/latest/docs/walkthrough/phase-4/autotune.html",
         "github": "https://github.com/openaps/oref0/tree/dev/bin",
         "configurations": [
