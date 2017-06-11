@@ -79,6 +79,19 @@ describe('project', function () {
     });
   });
 
+  describe('store URLs', function () {
+    context('when not undefined', function () {
+      projects.filter((project) => project.store !== undefined)
+        .forEach((project) => {
+          context(`${project.name} (${project.store})`, function () {
+            it('should respond with 200 OK', function (done) {
+              httpx_get(project.store, done);
+            });
+          });
+        });
+    });
+  });
+
   describe('configurations', function () {
     context('when not null', function () {
       projects.forEach((project) => {
