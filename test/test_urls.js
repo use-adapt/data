@@ -92,6 +92,19 @@ describe('project', function () {
     });
   });
 
+  describe('image_source URLs', function () {
+    context('when image is not null', function () {
+      projects.filter((project) => project.image !== null)
+        .forEach((project) => {
+          context(`${project.name} (${project.image_source})`, function () {
+            it('should respond with 200 OK', function (done) {
+              httpx_get(project.image_source, done);
+            });
+          });
+        });
+    });
+  });
+
   describe('configurations', function () {
     context('when not null', function () {
       projects.forEach((project) => {
