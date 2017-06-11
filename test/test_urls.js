@@ -6,6 +6,7 @@ import * as should from 'should';
 
 import * as data from '../data.json';
 
+
 function httpx_get(url, done) {
   function callback(res) {
     res.resume();
@@ -27,15 +28,12 @@ describe('project', function () {
   const projects = Object.keys(data.projects).reduce(((acc, category) =>
     acc.concat(data.projects[category])
   ), []);
-
+  
   describe('github URLs', function () {
-    context('when not null', function () {
-      projects.filter((project) => project.github !== null)
+    context('when defined', function () {
+      projects.filter((project) => project.github !== undefined)
         .forEach((project) => {
           context(`${project.name} (${project.website})`, function () {
-            it('should not be undefined', function () {
-              should.notStrictEqual(project.github, undefined);
-            });
             it('should respond with 200 OK', function (done) {
               httpx_get(project.github, done);
             });
@@ -45,13 +43,10 @@ describe('project', function () {
   });
 
   describe('website URLs', function () {
-    context('when not null', function () {
-      projects.filter((project) => project.website !== null)
+    context('when defined', function () {
+      projects.filter((project) => project.website !== undefined)
         .forEach((project) => {
           context(`${project.name} (${project.website})`, function () {
-            it('should not be undefined', function () {
-              should.notStrictEqual(project.website, undefined);
-            });
             it('should respond with 200 OK', function (done) {
               httpx_get(project.website, done);
             });
@@ -61,15 +56,41 @@ describe('project', function () {
   });
 
   describe('image URLs', function () {
-    context('when not null', function () {
-      projects.filter((project) => project.image !== null)
+    context('when defined', function () {
+      projects.filter((project) => project.image !== undefined)
         .forEach((project) => {
           context(`${project.name} (${project.image})`, function () {
-            it('should not be undefined', function() {
-              should.notStrictEqual(project.image, undefined);
-            });
             it('should respond with 200 OK', function (done) {
               httpx_get(project.image, done);
+            });
+          });
+        });
+    });
+  });
+
+  describe('store URLs', function () {
+    context('when defined', function () {
+      projects.filter((project) => project.store !== undefined)
+        .forEach((project) => {
+          context(`${project.name} (${project.store})`, function () {
+            it('should respond with 200 OK', function (done) {
+              httpx_get(project.store, done);
+            });
+          });
+        });
+    });
+  });
+
+  describe('image_source URLs', function () {
+    context('when image is defined', function () {
+      projects.filter((project) => project.image !== undefined)
+        .forEach((project) => {
+          context(`${project.name} (${project.image_source})`, function () {
+            it('should be defined', function () {
+              should.notStrictEqual(project.image_source, undefined);
+            });
+            it('should respond with 200 OK', function (done) {
+              httpx_get(project.image_source, done);
             });
           });
         });

@@ -5,90 +5,89 @@
         "name": "Loop",
         "image": "https://raw.githubusercontent.com/LoopKit/Loop/master/Documentation/Screenshots/Phone%20Graphs.png",
         "image_source": "https://github.com/loopkit/loop",
-        "website": null,
         "github": "https://github.com/loopkit/loop",
         "configurations": [
           [
             "Dexcom G4",
             "Medtronic 515/715",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G4",
             "Medtronic 522/722",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G4",
             "Medtronic 523/723 w/ <2.4 Firmware",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G4",
             "Medtronic 554/754 w/ <2.4 Firmware",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G4 with Share",
             "Medtronic 515/715",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G4 with Share",
             "Medtronic 522/722",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G4 with Share",
             "Medtronic 523/723 w/ <2.4 Firmware",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G4 with Share",
             "Medtronic 554/754 w/ <2.4 Firmware",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G5",
             "Medtronic 515/715",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G5",
             "Medtronic 522/722",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G5",
             "Medtronic 523/723 w/ <2.4 Firmware",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ],
           [
             "Dexcom G5",
             "Medtronic 554/754 w/ <2.4 Firmware",
-            "iOS",
+            "iOS Phone",
             "macOS",
             "RileyLink"
           ]
@@ -105,7 +104,7 @@
             "Dexcom G4",
             "Raspberry Pi 2 Model B",
             "WiFi Adapter",
-            "CareLink USB stick",
+            "CareLink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -114,7 +113,7 @@
             "Dexcom G4",
             "Raspberry Pi 2 Model B",
             "WiFi Adapter",
-            "TI stick",
+            "TI USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -122,7 +121,7 @@
           [
             "Dexcom G4",
             "Raspberry Pi 3 Model B",
-            "CareLink USB stick",
+            "CareLink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -130,7 +129,7 @@
           [
             "Dexcom G4",
             "Raspberry Pi 3 Model B",
-            "TI stick",
+            "TI USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -139,7 +138,7 @@
             "Dexcom G5",
             "Raspberry Pi 2 Model B",
             "WiFi Adapter",
-            "CareLink USB stick",
+            "CareLink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -148,7 +147,7 @@
             "Dexcom G5",
             "Raspberry Pi 2 Model B",
             "WiFi Adapter",
-            "TI stick",
+            "TI USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -156,7 +155,7 @@
           [
             "Dexcom G5",
             "Raspberry Pi 3 Model B",
-            "CareLink USB stick",
+            "CareLink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -164,7 +163,7 @@
           [
             "Dexcom G5",
             "Raspberry Pi 3 Model B",
-            "TI stick",
+            "TI USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -173,7 +172,7 @@
             "Dexcom G4 with Share",
             "Raspberry Pi 2 Model B",
             "WiFi Adapter",
-            "CareLink USB stick",
+            "CareLink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -182,7 +181,7 @@
             "Dexcom G4 with Share",
             "Raspberry Pi 2 Model B",
             "WiFi Adapter",
-            "TI stick",
+            "TI USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -190,7 +189,7 @@
           [
             "Dexcom G4 with Share",
             "Raspberry Pi 3 Model B",
-            "CareLink USB stick",
+            "CareLink USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -198,7 +197,7 @@
           [
             "Dexcom G4 with Share",
             "Raspberry Pi 3 Model B",
-            "TI stick",
+            "TI USB Stick",
             "Micro SD Card",
             "Micro-USB Cable",
             "2.1 Amp Power Supply/Battery"
@@ -318,35 +317,35 @@
         "configurations": [
           [
             "Dexcom G5",
-            "iOS"
+            "iOS Phone"
           ],
           [
             "Dexcom G4 with Share",
-            "iOS"
+            "iOS Phone"
           ],
           [
             "Dexcom G4 with Share",
-            "Android"
+            "Android Phone"
           ],
           [
             "Dexcom G4",
-            "Android"
+            "Android Phone"
           ],
           [
-            "Medtronic 530g",
-            "Android"
+            "Medtronic 530G",
+            "Android Phone"
           ],
           [
             "Medtronic Minimed Connect",
-            "iOS"
+            "iOS Phone"
           ],
           [
-            "Medtronic 640g",
-            "Android"
+            "Medtronic 640G",
+            "Android Phone"
           ],
           [
             "Freestyle Libre",
-            "Android"
+            "Android Phone"
           ]
         ]
       },
@@ -440,26 +439,26 @@
           [
             "Medtronic 723/523",
             "macOS",
-            "Carelink",
-            "Carelink USB Stick"
+            "CareLink",
+            "CareLink USB Stick"
           ],
           [
             "Medtronic 723/523",
             "Windows",
-            "Carelink",
-            "Carelink USB Stick"
+            "CareLink",
+            "CareLink USB Stick"
           ],
           [
-            "Medtronic 530g",
+            "Medtronic 530G",
             "macOS",
-            "Carelink",
-            "Carelink USB Stick"
+            "CareLink",
+            "CareLink USB Stick"
           ],
           [
-            "Medtronic 530g",
+            "Medtronic 530G",
             "Windows",
-            "Carelink",
-            "Carelink USB Stick"
+            "CareLink",
+            "CareLink USB Stick"
           ],
           [
             "Contour Next",
@@ -470,11 +469,11 @@
             "Windows"
           ],
           [
-            "Contour Next link",
+            "Contour Next Link",
             "macOS"
           ],
           [
-            "Contour Next link",
+            "Contour Next Link",
             "Windows"
           ],
           [
@@ -554,7 +553,6 @@
         "name": "Nightscout Menubar",
         "image": "https://raw.githubusercontent.com/mddub/nightscout-osx-menubar/master/screenshot.png",
         "image_source": "https://github.com/mddub/nightscout-osx-menubar",
-        "website": null,
         "github": "https://github.com/mddub/nightscout-osx-menubar",
         "configurations": [
           [
@@ -569,8 +567,6 @@
         "name": "CGM in the Sky",
         "image": "https://assets.getpebble.com/api/file/DrB3W3GQSNqngelLykLc/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
-        "github": null,
-        "website": null,
         "store": "https://apps.getpebble.com/en_US/application/56539401713e32fa020000a6?section=watchfaces",
         "configurations": [
           [
@@ -583,8 +579,6 @@
         "name": "Simple CGM Spark",
         "image": "https://assets.getpebble.com/api/file/J3UfWwwgT5yCkaRY1pQn/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
-        "github": null,
-        "website": null,
         "store": "https://apps.getpebble.com/en_US/application/56534d58d2d67de36d00005f?query=simple%2520cgm%2520spark&section=watchfaces",
         "configurations": [
           [
@@ -597,8 +591,6 @@
         "name": "Simple CGM",
         "image": "https://assets.getpebble.com/api/file/Yxs59mzATrXaWRd5tObu/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
-        "github": null,
-        "website": null,
         "store": "https://apps.getpebble.com/en_US/application/557c3091d269ce13b300001a?query=simple%2520cgm&section=watchfaces",
         "configurations": [
           [
@@ -611,8 +603,6 @@
         "name": "Nightscout Duo",
         "image": "https://assets.getpebble.com/api/file/uXnfHeSVKUsadBXvM4sg/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
-        "github": null,
-        "website": null,
         "store": "https://apps.getpebble.com/en_US/application/5717e72e02a44b1cf900000e?query=duo&section=watchfaces",
         "configurations": [
           [
@@ -626,8 +616,6 @@
         "image": "https://camo.githubusercontent.com/206a907ce1df1435de5abd90c9414e3119021464/687474703a2f2f692e696d6775722e636f6d2f633831597234522e706e67",
         "image_source": "https://github.com/mddub/urchin-cgm",
         "github": "https://github.com/mddub/urchin-cgm",
-        "website": null,
-        "store": null,
         "configurations": [
           [
             "Nightscout",
@@ -639,8 +627,6 @@
         "name": "Simple CGM Time",
         "image": "https://assets.getpebble.com/api/file/WTlnfSHoRkiC26hyNYPn/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
-        "github": null,
-        "website": null,
         "store": "https://apps.getpebble.com/en_US/application/5788797769ee715dd7000262",
         "configurations": [
           [
@@ -653,8 +639,6 @@
         "name": "Simple CGM Analog",
         "image": "https://assets.getpebble.com/api/file/n8ZU31kpTDmK0P9jXvzL/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
-        "github": null,
-        "website": null,
         "store": "https://apps.getpebble.com/en_US/application/578c21b584accc314e0002bf",
         "configurations": [
           [
@@ -667,8 +651,6 @@
         "name": "Nightscout for Pebble",
         "image": "https://assets.getpebble.com/api/file/WtNdjKpqQyqfnNIhyWLo/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
-        "github": null,
-        "website": null,
         "store": "https://apps.getpebble.com/en_US/application/543bfbbcecc29baad0000007?section=watchfaces",
         "configurations": [
           [
@@ -677,7 +659,7 @@
           ],
           [
             "Nightscout",
-            "Pebble steel"
+            "Pebble Steel"
           ],
           [
             "Nightscout",
@@ -685,7 +667,7 @@
           ],
           [
             "Nightscout",
-            "Pebble Time steel"
+            "Pebble Time Steel"
           ]
         ]
       },
@@ -693,8 +675,6 @@
         "name": "CGM in the Cloud",
         "image": "https://assets.getpebble.com/api/file/Xkzv50BQHyVQ5ao2bapA/convert?cache=true&fit=crop&w=144&h=168",
         "image_source": "https://apps.getpebble.com/en_US/watchfaces",
-        "github": null,
-        "website": null,
         "store": "https://apps.getpebble.com/en_US/application/543bfff4ecc29b79790001de?query=CGM%2520in%2520the%2520Cloud&section=watchfaces",
         "configurations": [
           [
@@ -703,7 +683,7 @@
           ],
           [
             "Nightscout",
-            "Pebble steel"
+            "Pebble Steel"
           ],
           [
             "Nightscout",
@@ -711,7 +691,7 @@
           ],
           [
             "Nightscout",
-            "Pebble Time steel"
+            "Pebble Time Steel"
           ]
         ]
       }
@@ -736,10 +716,14 @@
       "USB power supply"
     ],
     "Cloud Services": [
-      "Carelink",
+      "CareLink",
       "Medtronic Minimed Connect",
       "Nightscout",
       "Tidepool Blip"
+    ],
+    "Closed-Loop Systems": [
+      "Loop",
+      "OpenAPS"
     ],
     "Computer": [
       "Linux",
@@ -748,14 +732,16 @@
     ],
     "Meters": [
       "Contour Next",
+      "Contour Next Link",
+      "Contour Next USB",
       "Contour USB",
       "Freedom Lite",
       "Precision Xtra",
       "Verio IQ"
     ],
     "Phone": [
-      "Android",
-      "iOS"
+      "Android Phone",
+      "iOS Phone"
     ],
     "Portable Computers": [
       "Intel Edison",
@@ -770,22 +756,27 @@
       "Medtronic 522/722",
       "Medtronic 523/723 w/ <2.4 Firmware",
       "Medtronic 554/754 w/ <2.4 Firmware",
-      "Medtronic 640g",
+      "Medtronic 530G",
+      "Medtronic 640G",
       "Medtronic 523/723",
       "Omnipod",
-      "t:slim"
+      "t:flex",
+      "t:slim",
+      "t:slim G4",
+      "t:slim X2"
     ],
     "Smartwatches": [
-      "Android Wear (any)",
+      "Android Wear Watch",
       "Apple Watch",
       "Pebble",
       "Pebble Classic",
       "Pebble Time",
+      "Pebble Time Steel",
       "Samsung Gear"
     ],
     "Tools/Add-Ons": [
       "2.1 Amp Power Supply/Battery",
-      "Carelink USB Stick",
+      "CareLink USB Stick",
       "Explorer Board",
       "Intel Base Board",
       "Lipo Battery",
