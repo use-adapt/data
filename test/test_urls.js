@@ -25,6 +25,7 @@ function httpx_get(url, done) {
 }
 
 describe('project', function () {
+  this.timeout(5000);
   const projects = Object.keys(data.projects).reduce(((acc, category) =>
     acc.concat(data.projects[category])
   ), []);
